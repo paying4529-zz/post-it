@@ -25,6 +25,10 @@ git clone <br><br>
 
 - double click to edit: https://stackoverflow.com/questions/21172465/contenteditable-on-doubleclick
 
-## Demo ppt
+## Deploy
+
+https://post-itttt.herokuapp.com/
+
+
 
 
