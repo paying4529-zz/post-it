@@ -4,6 +4,9 @@ A simple bulletin board.
 
 ## Usage
 
+git clone
+./index.html
+
 ## Feature
 
 1. Arrange your post-it on the bulletin board wherever you want by drag-and-drop.
@@ -22,6 +25,6 @@ A simple bulletin board.
 
 - double click to edit: https://stackoverflow.com/questions/21172465/contenteditable-on-doubleclick
 
-## Demo ptt
+## Demo ppt
 
 
