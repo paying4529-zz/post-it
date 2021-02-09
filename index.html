@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drag item</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="styles.css"
+        />
+        <style>html{font-family: Arial, Helvetica, sans-serif;}</style>
+    </head>
+    <body>
+        <!-- Please use the class names and IDs as defined in styles.css
+         so that the outlook can be the same as the reference. -->
+        <script>
+            function listenForDoubleClick(element) {
+                element.contentEditable = true;
+                setTimeout(function() {
+                if (document.activeElement !== element) {
+                    element.contentEditable = false;
+                }
+                }, 300);
+            }
+        </script>
+        <div id="outerContainer">
+            <div id="container">
+                <div class="item one" onclick="listenForDoubleClick(this)" onblur="this.contentEditable=false;">Double click to edit...</div>
+                <div class="item two" onclick="listenForDoubleClick(this)" onblur="this.contentEditable=false;">Double click to edit...</div>           
+            </div>
+            <img src="trash.png" id="delete">
+            <div id="controller">
+                <input type="text" id="text" placeholder="Text...">
+                <select id="select">
+                    <option value="">--Size--</option>
+                    <option>Large</option>
+                    <option>Midium</option>
+                    <option>Small</option>
+                </select>
+                <input type="color" id="color" value="#F5D236">
+                <button class="button" id="add">Add</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
