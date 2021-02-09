@@ -4,7 +4,7 @@ A simple bulletin board.
 
 ## Usage
 
-git clone
+git clone <br><br>
 ./index.html
 
 ## Feature
